@@ -20,11 +20,10 @@ const App = () => {
         <Route path="/create" element={<Create />} />
       </Routes>
       <div style={{
-          position: "relative",
-          left: 0,
+          position: "absolute",
           bottom: 0,
-          right: 0,
-      
+          width: 100 + '%',
+          height: 2.5 + 'rem',
       }}>
 
         <Footer />
